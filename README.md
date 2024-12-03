@@ -111,21 +111,6 @@ This project focuses on predicting wine quality using Apache Spark, leveraging A
 ### Without Docker
 - **Accuracy**: 0.96875
 - **Weighted F1 Score**: 0.954190
----
-
-## Docker Configuration and Commands
-- **Build Image**:
-   ```bash
-   docker build -t aravind0815/winecluster:latest .
-   ```
-- **Push to Docker Hub**:
-   ```bash
-   docker push aravind0815/winecluster:latest
-   ```
-- **Run Docker Container**:
-   ```bash
-   sudo docker run -v /home/ec2-user/:/job aravind0815/winecluster:latest
-   ```
 
 ---
 
